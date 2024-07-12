@@ -1,0 +1,931 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 1250px;
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.main__container {
+  padding-top: 109px;
+}
+.main__container .first-section {
+  display: flex;
+  gap: 80px;
+  justify-content: space-between;
+  margin-bottom: 67px;
+}
+.main__container .about-hero h1 {
+  font-family: "Exo 2";
+  font-size: 52px;
+  font-weight: 600;
+  line-height: 65px;
+  color: rgb(54, 55, 56);
+  margin-bottom: 40px;
+  margin-top: 71px;
+}
+.main__container .about-hero .hero-text {
+  font-family: "PT Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: rgb(107, 107, 108);
+  margin-bottom: 40px;
+}
+.main__container .about-hero span {
+  font-family: "PT Sans";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  color: rgb(54, 55, 56);
+  border-bottom: 3px solid rgb(255, 206, 80);
+}
+.main__container .second-section {
+  display: flex;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.15);
+  padding: 40px 122px 40px 80px;
+  gap: 105px;
+  border-radius: 20px;
+  margin-bottom: 67px;
+}
+.main__container .second-section .second-section-menu {
+  border-left: 1px solid rgb(215, 215, 221);
+  padding-left: 64px;
+}
+.main__container .second-section img {
+  width: 92px;
+  height: 92px;
+  margin-bottom: 24px;
+}
+.main__container .second-section h2 {
+  font-family: "Exo 2";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  color: rgb(54, 55, 56);
+  margin-bottom: 16px;
+}
+.main__container .second-section p {
+  font-family: "PT Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: rgb(107, 107, 108);
+}
+.main__container .third-section {
+  background-image: url(/images/third-section-back-img.png);
+  margin-bottom: 73px;
+  position: relative;
+}
+.main__container .third-section h2 {
+  position: absolute;
+  top: 178px;
+  left: 90px;
+  width: 362px;
+  font-family: "Exo 2";
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+  color: rgb(255, 255, 255);
+}
+.main__container .fourth-section {
+  display: flex;
+  align-items: center;
+  gap: 140px;
+  margin-bottom: 120px;
+  padding-left: 66px;
+}
+.main__container .fourth-section .fourth-section-menu {
+  width: 447px;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+.main__container .fourth-section .fourth-section-menu h4 {
+  font-family: "Exo 2";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  color: rgb(54, 55, 56);
+  margin-bottom: 16px;
+}
+.main__container .fourth-section .fourth-section-menu p {
+  font-family: "PT Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgb(107, 107, 108);
+}
+.main__container .fourth-section .fourth-section-one {
+  margin-bottom: 62px;
+}
+.main__container .fifth-section {
+  margin-bottom: 212px;
+}
+.main__container .fifth-section .fifth-section-enterance h3 {
+  font-family: "Exo 2";
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+  color: rgb(54, 55, 56);
+  margin-bottom: 32px;
+}
+.main__container .fifth-section .fifth-section-enterance p {
+  width: 465px;
+  font-family: "PT Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgb(107, 107, 108);
+  margin-bottom: 56px;
+}
+.main__container .fifth-section .fifth-section-cards {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+.main__container .fifth-section .fifth-section-card {
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.12);
+  border-radius: 10px;
+  padding-bottom: 32px;
+}
+.main__container .fifth-section .fifth-section-card h4 {
+  font-family: "Exo 2";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  color: rgb(54, 55, 56);
+  margin-top: 24px;
+  margin-left: 32px;
+  margin-bottom: 16px;
+}
+.main__container .fifth-section .fifth-section-card p {
+  font-family: "PT Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgb(107, 107, 108);
+  margin-left: 32px;
+  margin-bottom: 32px;
+  margin-right: 70px;
+}
+.main__container .fifth-section .fifth-section-card span {
+  padding-bottom: 6px;
+  font-family: "Exo 2";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21.6px;
+  color: rgb(54, 55, 56);
+  border-bottom: 3px solid rgb(255, 206, 80);
+  margin-left: 32px;
+}
+.main__container .sixth-section {
+  margin-bottom: 120px;
+  display: flex;
+  padding: 85px 66px 85px 81px;
+  background-color: rgb(11, 117, 114);
+}
+.main__container .sixth-section h3 {
+  font-family: "Exo 2";
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+  color: rgb(255, 255, 255);
+  margin-top: 15px;
+}
+.main__container .sixth-section .table-sec {
+  background-color: white;
+  padding: 28px 32px 40px;
+  width: 652px;
+}
+.main__container .sixth-section .table-header {
+  display: flex;
+  gap: 194px;
+  padding-bottom: 32px;
+  margin-bottom: 32px;
+  border-bottom: 1px solid rgb(215, 215, 221);
+}
+.main__container .sixth-section .table-header img {
+  width: 103px;
+  height: 56.49px;
+}
+.main__container .sixth-section .table-header p {
+  width: 274px;
+  font-family: "PT Sans";
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 16.5px;
+  color: rgb(107, 107, 108);
+}
+.main__container .sixth-section .table-enterance {
+  margin-bottom: 8px;
+  width: 588px;
+  height: 45px;
+  border: none;
+  background-color: rgb(11, 117, 114);
+  font-family: "Exo 2";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  color: rgb(255, 255, 255);
+  display: flex;
+  gap: 26px;
+  padding: 5px;
+  padding-left: 32px;
+}
+.main__container .sixth-section .table-enterance span {
+  padding-right: 36px;
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding-top: 6px;
+}
+.main__container .sixth-section .table-enterance .contact-table {
+  border-right: none;
+}
+.main__container .sixth-section table {
+  border-collapse: collapse;
+  background-color: rgb(249, 249, 251);
+  padding: 8px 16px 24px 16px;
+}
+.main__container .sixth-section table td > img {
+  width: 81px;
+  height: 74px;
+}
+.main__container .sixth-section table p {
+  font-family: "PT Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.9px;
+  color: rgb(107, 107, 108);
+}
+.main__container .sixth-section table .money {
+  font-family: "Exo 2";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18.9px;
+  color: rgb(54, 55, 56);
+}
+.main__container .sixth-section table h6 {
+  font-family: "PT Sans";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18.9px;
+  color: rgb(54, 55, 56);
+}
+.main__container .sixth-section table span {
+  font-family: "PT Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.9px;
+  color: rgb(54, 55, 56);
+}
+.main__container .sixth-section table td {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.main__container .sixth-section table .one {
+  border-top: none;
+  border-left: none;
+  width: 109px;
+  margin-top: 8px;
+}
+.main__container .sixth-section table .two {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-top: none;
+  width: 138px;
+}
+.main__container .sixth-section table .two p {
+  margin-bottom: 10px;
+}
+.main__container .sixth-section table .three {
+  width: 185px;
+  border-top: none;
+}
+.main__container .sixth-section table .three h6 {
+  margin-top: 16px;
+  margin-bottom: 10px;
+}
+.main__container .sixth-section table .three p {
+  margin-bottom: 12px;
+}
+.main__container .sixth-section table .four {
+  border-top: none;
+  border-right: none;
+}
+.main__container .sixth-section table .four p {
+  margin-top: 12px;
+  margin-bottom: 10px;
+}
+.main__container .sixth-section table td {
+  padding-top: 8px;
+  padding-bottom: 24px;
+  padding-left: 16px;
+  padding-right: 20px;
+  text-align: top;
+}
+.main__container .sixth-section table td h6 {
+  margin-bottom: 10px;
+}
+.main__container .sixth-section table td p {
+  margin-bottom: 12px;
+}
+.main__container .sixth-section table .five {
+  border-left: none;
+}
+.main__container .sixth-section table .six {
+  border-right: none;
+}
+.main__container .sixth-section table .seven {
+  border-bottom: none;
+  border-left: none;
+}
+.main__container .sixth-section table .eight {
+  border-bottom: none;
+}
+.main__container .sixth-section table .nine {
+  border-bottom: none;
+  border-right: none;
+}
+.main__container .seventh-section {
+  margin-bottom: 120px;
+}
+.main__container .seventh-section h3 {
+  font-family: "Exo 2";
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+  color: rgb(54, 55, 56);
+  margin-bottom: 48px;
+}
+.main__container .seventh-section .seventh-card-one {
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.12);
+  margin-left: 49px;
+  display: flex;
+  gap: 56px;
+  padding: 32px 132px 32px 96px;
+  margin-bottom: 24px;
+}
+.main__container .seventh-section img {
+  width: 331px;
+  height: 181px;
+}
+.main__container .seventh-section .seventh-card-one-text h4 {
+  font-family: "Exo 2";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 25px;
+  color: rgb(54, 55, 56);
+  margin-bottom: 24px;
+}
+.main__container .seventh-section .seventh-card-one-text hr {
+  width: 86px;
+  margin-bottom: 24px;
+  border: 2px solid rgb(255, 206, 80);
+}
+.main__container .seventh-section .seventh-card-one-text p {
+  font-family: "PT Sans";
+  width: 568px;
+  color: rgb(107, 107, 108);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+.main__container .ninth-section h3 {
+  font-family: "Exo 2";
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+  color: rgb(54, 55, 56);
+  margin-bottom: 90px;
+}
+.main__container .ninth-section .ninth-first-line {
+  margin-bottom: 71px;
+  display: flex;
+}
+.main__container .ninth-section .ninth-first-line .list {
+  display: flex;
+  text-align: center;
+}
+.main__container .ninth-section .ninth-first-line .list h5 {
+  font-family: "Exo 2";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  color: rgb(54, 55, 56);
+  margin-bottom: 14px;
+}
+.main__container .ninth-section .ninth-first-line .list p {
+  font-family: "PT Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: rgb(107, 107, 108);
+}
+.main__container .ninth-section .ninth-first-line .rosatom {
+  margin-left: 46px;
+  padding-right: 73px;
+  border-right: 1px solid rgb(215, 215, 221);
+}
+.main__container .ninth-section .ninth-first-line .rosatom img {
+  width: 79px;
+  height: 101px;
+  margin-bottom: 32px;
+}
+.main__container .ninth-section .ninth-first-line .gazprom {
+  margin-left: 60px;
+  padding-right: 73px;
+  border-right: 1px solid rgb(215, 215, 221);
+}
+.main__container .ninth-section .ninth-first-line .gazprom img {
+  margin-bottom: 57px;
+  width: 150px;
+  height: 72px;
+}
+.main__container .ninth-section .ninth-first-line .rosneft {
+  margin-left: 67px;
+  padding-right: 67px;
+  border-right: 1px solid rgb(215, 215, 221);
+}
+.main__container .ninth-section .ninth-first-line .rosneft img {
+  width: 125px;
+  height: 100px;
+  margin-bottom: 31px;
+}
+.main__container .ninth-section .ninth-first-line .roscosmos {
+  margin-left: 49px;
+}
+.main__container .ninth-section .ninth-first-line .roscosmos img {
+  width: 77px;
+  height: 94px;
+  margin-bottom: 34px;
+}
+.main__container .ninth-section .ninth-second-line {
+  display: flex;
+  margin-bottom: 130px;
+}
+.main__container .ninth-section .ninth-second-line .list {
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+.main__container .ninth-section .ninth-second-line .list h5 {
+  font-family: "Exo 2";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  color: rgb(54, 55, 56);
+  margin-bottom: 14px;
+}
+.main__container .ninth-section .ninth-second-line .list p {
+  font-family: "PT Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: rgb(107, 107, 108);
+}
+.main__container .ninth-section .ninth-second-line .list .lukoyl {
+  margin-left: 53px;
+  padding-right: 64px;
+  border-right: 1px solid rgb(215, 215, 221);
+}
+.main__container .ninth-section .ninth-second-line .list .lukoyl img {
+  width: 182px;
+  height: 48.54px;
+  margin-bottom: 57.73px;
+}
+.main__container .ninth-section .ninth-second-line .list .inter {
+  margin-left: 68px;
+  padding-right: 66px;
+  border-right: 1px solid rgb(215, 215, 221);
+}
+.main__container .ninth-section .ninth-second-line .list .inter img {
+  width: 95px;
+  height: 88px;
+  margin-bottom: 36px;
+}
+.main__container .ninth-section .ninth-second-line .list .rostex {
+  margin-left: 58px;
+  padding-right: 58px;
+  border-right: 1px solid rgb(215, 215, 221);
+}
+.main__container .ninth-section .ninth-second-line .list .rostex img {
+  width: 79px;
+  height: 96.58px;
+  margin-bottom: 34.42px;
+}
+.main__container .ninth-section .ninth-second-line .list .bank {
+  margin-left: 67px;
+  text-align: center;
+}
+.main__container .ninth-section .ninth-second-line .list .bank img {
+  width: 145px;
+  height: 51.7px;
+  margin-bottom: 59.3px;
+}
+.main__container .tenth-section h3 {
+  font-family: "Exo 2";
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+  color: rgb(54, 55, 56);
+  margin-bottom: 72px;
+}
+.main__container .tenth-section .tenth-heros {
+  display: flex;
+  margin-bottom: 24px;
+  gap: 30px;
+}
+.main__container .tenth-section .tenth-hero {
+  width: 605px;
+  display: flex;
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+.main__container .tenth-section .tenth-hero .empty-place {
+  background-color: rgb(11, 117, 114);
+  width: 51px;
+  height: 210px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  margin-right: 32px;
+}
+.main__container .tenth-section .tenth-hero .about-tenth-hero {
+  margin-left: 40px;
+  margin-top: 47px;
+  margin-right: 172px;
+}
+.main__container .tenth-section .tenth-hero .about-tenth-hero h4 {
+  font-family: "Exo 2";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  color: rgb(54, 55, 56);
+  margin-bottom: 12px;
+}
+.main__container .tenth-section .tenth-hero .about-tenth-hero span {
+  font-family: "PT Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: rgb(107, 107, 108);
+}
+.main__container .tenth-section .tenth-hero .about-tenth-hero hr {
+  margin-top: 16px;
+  margin-bottom: 31px;
+  width: 86px;
+  border: 2px solid rgb(255, 206, 80);
+}
+.main__container .tenth-section .tenth-hero .about-tenth-hero .tenth-sec-icoons {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.main__container .eleventh-section h3 {
+  font-family: "Exo 2";
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+  color: rgb(54, 55, 56);
+  margin-top: 130px;
+}
+.main__container .adress {
+  margin-top: 94px;
+}
+.main__container .adress .telefon {
+  display: flex;
+  align-items: center;
+  gap: 36.7px;
+  margin-bottom: 44px;
+}
+.main__container .adress p {
+  font-family: "PT Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: rgb(107, 107, 108);
+  margin-bottom: 8px;
+}
+.main__container .adress span {
+  font-family: "Exo 2";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  color: rgb(54, 55, 56);
+}
+.main__container .eleventh {
+  display: flex;
+  gap: 198px;
+}
+.main__container .about-adress {
+  margin-top: 72px;
+  background-color: rgb(249, 249, 251);
+  border: none;
+  border-radius: 5px;
+  padding: 40px 72px 56px 48px;
+  width: 794px;
+  height: 393px;
+  margin-bottom: 46px;
+}
+.main__container .about-adress p {
+  width: 175px;
+  margin-right: 56px;
+  font-family: "PT Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: rgb(107, 107, 108);
+}
+.main__container .about-adress span {
+  font-family: "Exo 2";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  color: rgb(54, 55, 56);
+}
+.main__container .about-adress .polno {
+  margin-bottom: 32px;
+  display: flex;
+  gap: 56px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid rgb(233, 234, 242);
+}
+.main__container .about-adress .adres {
+  border: none;
+}
+.main__container .about-adress .adres p {
+  width: 175px;
+  margin-right: 150px;
+}
+.main__container .about-adress .adres span {
+  font-family: "Exo 2";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: left;
+}
+.main__container .twelveth-section {
+  margin-bottom: 166px;
+}
+.main__container .twelveth-section iframe {
+  width: 1245px;
+  height: 667px;
+}
+
+footer {
+  padding-top: 59px;
+  background-color: rgb(11, 117, 114);
+}
+footer .footer-text {
+  display: flex;
+}
+footer .footer-text h3 {
+  font-family: sans-serif;
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 90px;
+  letter-spacing: 0.16em;
+  color: rgb(255, 255, 255);
+  margin-right: 134px;
+}
+footer .footer-text .footer-ul-1 li {
+  margin-right: 97px;
+  list-style: none;
+  font-family: "Exo 2";
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 19.5px;
+  letter-spacing: 0.16em;
+  color: rgb(255, 255, 255);
+  margin-bottom: 25px;
+}
+footer .footer-text .footer-ul-2 li {
+  list-style: none;
+  font-family: "Exo 2";
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 19.5px;
+  letter-spacing: 0.16em;
+  color: rgb(255, 255, 255);
+  margin-bottom: 25px;
+}
+footer .footer-text .footer-finally {
+  margin-left: 180px;
+}
+footer .footer-text .footer-finally .footer-icons {
+  display: flex;
+  gap: 14.43px;
+  align-items: center;
+  margin-bottom: 32.18px;
+}
+footer .footer-text .footer-finally span {
+  font-family: "Exo 2";
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 19.5px;
+  color: rgb(255, 255, 255);
+}
+footer .footer-text .footer-finally button {
+  width: 271px;
+  height: 42px;
+  margin-top: 32px;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 14.42px;
+  background-color: rgb(255, 150, 25);
+  font-family: "Exo 2";
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 19.5px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding-left: 35px;
+}
+footer .finally {
+  font-family: "Exo 2";
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0.16em;
+  text-align: center;
+  margin-top: 80px;
+  color: rgb(255, 255, 255);
+  padding-bottom: 29px;
+}
+
+@media screen and (max-width: 1220px) {
+  .container {
+    max-width: 1120px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .first-section {
+    gap: 70px;
+  }
+  .about-hero h1 {
+    font-size: 44px;
+  }
+  .about-hero .hero-text {
+    font-size: 14px;
+  }
+  .about-hero .hero-img img {
+    width: 470pxpx;
+  }
+  .second-section {
+    padding: 35px 115px 35px 75px;
+    gap: 85px;
+  }
+  .fifth-section {
+    margin-bottom: 180px;
+  }
+  .fifth-section h3 {
+    font-size: 44px;
+  }
+  .fifth-section .fifth-section-enterance p {
+    font-size: 14px;
+  }
+  .fifth-section .fifth-section-cards {
+    gap: 25px;
+  }
+  .sixth-section {
+    margin-bottom: 100px;
+    padding: 80px 60px 80px 50px;
+  }
+  .sixth-section h3 {
+    font-size: 36px;
+    margin-right: 20px;
+  }
+  .sixth-section .table-sec {
+    width: 580px;
+  }
+  .seventh-section {
+    margin-bottom: 90px;
+  }
+  .seventh-section h3 {
+    font-size: 36px;
+  }
+  .seventh-section .seventh-card-one {
+    margin-left: 38px;
+    padding: 28px 120px 25px 84px;
+  }
+  .seventh-section img {
+    width: 300px;
+  }
+  .seventh-section .seventh-card-one-text h4 {
+    font-size: 17px;
+  }
+  .seventh-section .seventh-card-one-text hr {
+    width: 70px;
+  }
+  .seventh-section .seventh-card-one-text p {
+    width: 350px;
+    font-size: 12px;
+  }
+  .ninth-section h3 {
+    font-size: 36px;
+  }
+  .ninth-section .ninth-first-line {
+    margin-bottom: 50px;
+  }
+  .ninth-section .list h5 {
+    font-size: 16px;
+  }
+  .ninth-section .list p {
+    font-size: 12px;
+  }
+  .tenth-hero {
+    padding-bottom: 10px;
+    height: 210px;
+  }
+  .tenth-hero hr {
+    margin-bottom: 11px;
+  }
+  .eleventh-section h3 {
+    font-size: 36px;
+  }
+  .eleventh-section .telefon span {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .eleventh-section .about-adress {
+    padding: 30px 62px 56px 38px;
+    width: 704px;
+    height: 333px;
+  }
+  .eleventh-section .about-adress span {
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .eleventh-section .about-adress .adres span {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 15px;
+  }
+  .eleventh-section .about-adress .polno {
+    margin-bottom: 22px;
+  }
+  .twelveth-section {
+    margin-bottom: 106px;
+  }
+  .twelveth-section iframe {
+    width: 1020px;
+    height: 567px;
+  }
+  footer button {
+    width: 201PX;
+    height: 42px;
+    margin-top: 32px;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 14.42px;
+    background-color: rgb(255, 150, 25);
+    font-family: "Exo 2";
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 15.5px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-left: 25px;
+  }
+}
+@media screen and (max-width: 1120px) {
+  .container {
+    max-width: 960px;
+    width: 100%;
+  }
+  .sixth-section {
+    display: block;
+  }
+  .fifth-section-card {
+    margin-bottom: 0px;
+  }
+  .seventh-section {
+    margin-top: 0px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .container {
+    max-width: 690px;
+    width: 100%;
+  }
+  .second-section {
+    display: block;
+    box-shadow: none;
+    margin-bottom: 40px;
+  }
+  .third-section .back-img {
+    width: 60%;
+  }
+}/*# sourceMappingURL=main.css.map */
